@@ -1,0 +1,2 @@
+# DealShot
+DealShot IOS application.
