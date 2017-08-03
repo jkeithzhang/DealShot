@@ -33,7 +33,7 @@
                             <constraint firstItem="Rrd-Sb-3Ux" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="zEn-NJ-PPX"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Local Deals" id="T28-Qf-J6x"/>
+                    <tabBarItem key="tabBarItem" title="Local Deals" image="local-deals" id="T28-Qf-J6x"/>
                     <connections>
                         <outlet property="map" destination="Rrd-Sb-3Ux" id="GXa-nf-kzt"/>
                     </connections>
@@ -42,7 +42,7 @@
             </objects>
             <point key="canvasLocation" x="48.5" y="71.5"/>
         </scene>
-        <!--Hot Deals Table View Controller-->
+        <!--Discover-->
         <scene sceneID="LTW-YK-fYq">
             <objects>
                 <tableViewController id="hdy-cG-Gtu" customClass="HotDealsTableViewController" customModule="DealShot" customModuleProvider="target" sceneMemberID="viewController">
@@ -80,7 +80,7 @@
                             <outlet property="delegate" destination="hdy-cG-Gtu" id="fBV-Jk-wNK"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="PT0-pk-gBz"/>
+                    <navigationItem key="navigationItem" title="Discover" id="PT0-pk-gBz"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3M2-AM-eul" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -113,11 +113,11 @@
             </objects>
             <point key="canvasLocation" x="3732" y="653.52323838080963"/>
         </scene>
-        <!--Hot Deals-->
+        <!--Navigation Controller-->
         <scene sceneID="1wt-Mg-QuT">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="guh-gg-y9b" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Hot Deals" badgeValue="10" id="AYm-mh-gV6"/>
+                    <tabBarItem key="tabBarItem" badgeValue="10" systemItem="recents" id="AYm-mh-gV6"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="T6g-vu-92y">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -152,4 +152,7 @@
             <point key="canvasLocation" x="135" y="761"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="local-deals" width="25" height="25"/>
+    </resources>
 </document>
