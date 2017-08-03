@@ -42,7 +42,7 @@ class HotDealsTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "HotDealsTableViewCell", for: indexPath)
 
         // Configure the cell...
-        cell.textLabel?.text = "dsadasdsad"
+        cell.textLabel?.text = "1111"
         
         
         return cell
